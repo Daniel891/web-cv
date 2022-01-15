@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" 
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="styles.css">
+            <title>Daniel_RM-CV</title>
+
+<script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+</script>
+
+    </head>
+
+    <body>
+        <div class="container" id="main">
+            <div class="header">
+                <div id="foto" class="leftcolumn"><img src="foto.jpg" width="170"></div>
+
+                <div class="rightcolumn">
+                    <div class="title">Daniel Romero Morilla</div>
+                    <div class="subtitle">Técnico Superior de Administración de Sistemas<br>
+                    Técnico Superior de Telecomunicaciones</div>
+                </div>
+                
+            </div>
+
+            <div class="tabmenu">
+                <button class="tablink" onclick="openPage('trab', this, '#00D499')">Historial Laboral</button>
+                <button class="tablink" onclick="openPage('educ', this, '#628DC1')" >Historial Académico</button>
+                <button class="tablink" onclick="openPage('personal', this, '#9DC67B')" id="defaultOpen">Sobre mí</button>
+            </div>
+
+            <div id="trab" class="tabcontent">
+                <h2>HISTORIAL LABORAL</h2><br><br>
+
+                <div class="list-group">
+                    <li class="list-group-item">
+                        <h3>Profesor de Informática para la 3ª Edad</h3>
+                        <p>Asociación de vecinos del Torcal (Málaga) - Presente</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Operador de Logística</h3>
+                        <p>Anovo. Departamento de Vodafone - (08/20 - 02/21)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Camarero</h3>
+                        <p>Centro de Málaga - (10/19 - 01/20)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Bartender</h3>
+                        <p>Bodegar Bar (Windermer, UK) - (07/19 - 09/19)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Socorrista</h3>
+                        <p>Suraqua Socorristas - (06/19 - 07/19)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Programador en Prácticas</h3>
+                        <p>Indra - (11/18 - 12/18)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Rider Autónomo</h3>
+                        <p>Glovo - (10/17 - 03/18)</p>
+                    </li>
+                </div>
+            </div>
+
+            <div id="educ" class="tabcontent">
+                <h2>HISTORIAL ACADÉMICO</h2><br><br>
+
+                <div class="list-group">
+                    <li class="list-group-item">
+                        <h3>I.E.S. Miguel Romero Esteo</h3>
+                        <p>Grado Superior de Administración de Sistemas Informáticos en Red - (2020 - Presente)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>I.E.S. La Rosaleda</h3>
+                        <p>Grado Superior de Sistemas de Telecomunicaciones e Informáticos - (2018 - 2020)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Curso del I.M.F.E.</h3>
+                        <p>Desarrollo Web EE con Angular + Prácticas en Indra - 2018</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Universidad de Córdoba</h3>
+                        <p>Dos años en el Grado de Física - (2015 - 2017)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>I.E.S. Santa Rosa de Lima</h3>
+                        <p>Bachillerato de Ciencias - (2013 - 2015)</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Título de Inglés B1 (ISE I) - 2013</h3>
+                    </li>
+                </div>
+            </div>
+
+            <div id="personal" class="tabcontent">
+                <h2>PERFIL PERSONAL</h2><br>
+
+                <p>Soy un joven malagueño formado como
+                    técnico de telecomunicaciones, que ha
+                    seguido
+                    formándose,
+                    ahora
+                    como
+                    administrador de sistemas y busca hacerse
+                    un camino en el mundo de la tecnología de
+                    la información.</p><br>
+
+                <div class="list-group" id="aptitud">
+                    <li class="list-group-item">
+                        <h3>Aptitudes y habilidades</h3>
+                        - Persona motivada y disciplinada<br>
+                        - Buen trabajador en equipo<br>
+                        - Gran capacidad resolutiva<br>
+                        - Permiso de conducir y coche a disposición<br>
+                    </li>
+                </div>
+
+                <div class="list-group" id="contact">
+                    <li class="list-group-item">
+                        <h3>Información de contacto</h3>
+                        Móvil: 682 666 740<br>
+                        Email: <a href="mailto:danielromeromorilla@hotmail.com">danielromeromorilla@hotmail.com</a><br>
+                        Perfil de Linkedin: <a href="https://www.linkedin.com/in/daniel-rm/">Daniel-RM</a><br>
+                        Dirección: C/Félix García Palacios, nº11, 5º-E.<br>
+                        C.P.: 29006
+                </div>
+            </div>
+        </div>
+        <script>document.getElementById("defaultOpen").click();</script>
+    </body>
+</html>

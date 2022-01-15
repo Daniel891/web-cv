@@ -1,0 +1,86 @@
+* {box-sizing: border-box}
+                
+                /* Set height of body and the document to 100% */
+                body, html {
+                  height: 100%;
+                  margin: 0;
+                  font-family: Arial;
+                  font-size: 18px;
+                }
+
+                .container{
+                  width: 1000px;
+                  height: 100%;
+                }
+
+                .rightcolumn {
+                    float: left;
+                    padding-left: 60px;
+                    padding-top: 40px;
+                }
+
+                .title{
+                  font-size:45px;
+                  text-transform:uppercase;
+                  text-shadow:0 7px 7px rgba(0,0,0,.5)
+                }
+
+                .subtitle{
+                    font-size: 20px;
+                    padding-top: 15px;
+                }
+
+                .leftcolumn {   
+                    float: left;
+                }
+                .header:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                
+                /* Style tab links */
+                .tablink {
+                  background-color: black;
+                  color: white;
+                  float: left;
+                  border: none;
+                  outline: none;
+                  cursor: pointer;
+                  padding: 14px 16px;
+                  font-size: 20px;
+                  width: 33.3%;
+                }
+                
+                .tablink:hover {
+                  background-color: #777;
+                }
+                
+                /* Style the tab content (and add height:100% for full page content) */
+                .tabcontent {
+                  color: black;
+                  display: none;
+                  padding: 100px 50px;
+                  height:fit-content;
+                  min-height: 60%;
+                }
+
+                .tabcontent:hover {
+                  background-color: rgb(163, 100, 75);
+                }
+
+                .tabcontent h2{
+                  text-decoration: underline;
+                }
+
+                #aptitud{
+                  float: left;
+                }
+
+                #contact{
+                  float: right;
+                }
+
+                #trab {background-color: #00D499;}
+                #educ {background-color: #628DC1;}
+                #personal {background-color: #9DC67B;}
