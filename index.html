@@ -27,7 +27,7 @@
       }
       tablinks = document.getElementsByClassName("tablink");
       for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
+        tablinks[i].style.backgroundColor = color;
       }
       document.getElementById(pageName).style.display = "block";
       elmnt.style.backgroundColor = color;
@@ -51,8 +51,8 @@
 
             <div class="tabmenu">
                 <button class="tablink" onclick="openPage('trab', this, '#5b7d8f')">Historial Laboral</button>
-                <button class="tablink" onclick="openPage('educ', this, '#00c3ae')" >Historial Académico</button>
-                <button class="tablink" onclick="openPage('personal', this, '#8df50f')" id="defaultOpen">Sobre mí</button>
+                <button class="tablink" onclick="openPage('educ', this, '#916ea6')" >Historial Académico</button>
+                <button class="tablink" onclick="openPage('personal', this, '#d15656')" id="defaultOpen">Sobre mí</button>
             </div>
 
             <div id="trab" class="tabcontent">
